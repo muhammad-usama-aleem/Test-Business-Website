@@ -35,6 +35,9 @@
   .navbar-toggle i {
       color: #fff;
   }
+  #navbar{
+    padding-top: 0px !important;
+  }
   
   .navbar-brand {
     padding: 0;
@@ -47,7 +50,7 @@
   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
     color: #fff !important;
   }
-  .navbar-light .navbar-brand
+  .navbar-light .navbar-brand, .testimonal-title
   {
     font-family: 'Pacifico', cursive;
     font-size: x-large;
@@ -65,7 +68,7 @@
   .navbar-nav li a:focus,
   .navbar-nav li a:hover {
       background-color: transparent;
-      border-top: 1px solid #32B0EE;
+      border-top: 1px solid #ed8936;
       color: #fff;
   }
 
@@ -176,6 +179,14 @@
   left: 10px;
 }
 
-.features-section{
+.features-section, .team-section, .testimonal{
     background-color: rgb(245, 243, 236);
+}
+.location{
+    display: flex;
+    justify-content: center;
+}
+.testimonal-title
+{
+    font-size: 2em !important;
 }
