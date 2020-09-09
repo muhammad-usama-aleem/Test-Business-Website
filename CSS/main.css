@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
                 /* preloader */
 #preloader  {
     display: block;
